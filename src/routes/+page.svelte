@@ -34,8 +34,9 @@
 
 	<div>
 		<p>This page demonstrates how to use native <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog">HTML Dialog</a> element along with the <a href="https://kit.svelte.dev/docs/shallow-routing">shallow routing</a> feature in SvelteKit. When the dialog is open, clicking on the close button or the backdrop, or hitting the browser back button will close it.</p>
+	</div>
 
-
+	<div>
 		<button on:click={open_dialog}>Open Dialog</button>
 	</div>
 
