@@ -1,4 +1,4 @@
-# create-svelte
+# Native Dialog with Shallow Routing
 
 Demonstration of using native HTML [Dialog](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog) element with [shallow routing](https://kit.svelte.dev/docs/shallow-routing).
 
