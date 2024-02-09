@@ -39,6 +39,10 @@
 		<button on:click={open_dialog}>Open Dialog</button>
 	</div>
 
+	<div>
+		<a href="https://github.com/kucrut/sveltekit-dialog-shallow-routing">Fork on GitHub</a>
+	<div>
+
 	{#if $page.state.show_modal}
 		<Dialog on:close={close_dialog}>
 			<p>Hello, and welcome!</p>
@@ -77,6 +81,7 @@
 	}
 
 	div {
+		margin-block: 2rem;
 		text-align: center;
 	}
 </style>
